@@ -1,9 +1,6 @@
-# Streamlit 应用依赖清单（用于云端部署）
-# 注意：paddleocr 3.x 为纯 Python 实现，不需要安装庞大的 paddlepaddle。
-# opencv 使用 headless 版本，适合 Linux 服务器（无 GUI 环境）。
 
 streamlit>=1.30
 paddleocr>=3.0
-opencv-python-headless
+opencv-python-headless==4.10.0.84
 numpy<2.4
 pillow
