@@ -1,6 +1,6 @@
-
 streamlit>=1.30
+paddlepaddle>=3.0
 paddleocr>=3.0
-opencv-python-headless==4.10.0.84
+opencv-python-headless
 numpy<2.4
 pillow
